@@ -25,7 +25,7 @@ If you are not running the Service as a bootable jar, use the mechanism availabl
 There is an example [Dockerfile](Dockerfile) demonstrating how to extend the Backbase Docker images
 with the Behaviour Extension jar built from this project. **Make sure the base image has the tag you need**.
 
-    mvn package -Pdocker
+    mvn package -Pdocker-image
 
 The build creates a Docker image with the extension added and ready to use.
 
